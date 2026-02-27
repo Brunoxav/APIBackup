@@ -9,9 +9,8 @@ Script em Python que copia arquivos automaticamente de uma pasta para outra e ge
 - **Uso prático** — Pode ser agendado no Windows (Agendador de Tarefas) para backup diário ou semanal.
 
 ## Demonstra
-
-- ✔️ **Automação real** — Script pronto para rodar manualmente ou agendado.
-- ✔️ **Uso prático para empresas** — Backup de pastas de trabalho, documentos ou dados.
+**Automação real** — Script pronto para rodar manualmente ou agendado.
+**Uso prático para empresas** — Backup de pastas de trabalho, documentos ou dados.
 
 ## Como rodar
 
