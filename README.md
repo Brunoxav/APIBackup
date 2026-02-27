@@ -58,33 +58,3 @@ python backup.py "C:\Origem" "D:\Backup" --logs "C:\LogsBackup"
 7. Iniciar em: `C:\caminho\projeto3_backup`.
 
 Assim o backup roda sozinho e os logs ficam em `logs/`.
-
-## Publicar no GitHub
-
-### Opção rápida (com Git instalado)
-
-1. Crie um repositório novo em **https://github.com/new** (ex.: nome: `backup-automacao`).
-2. **Não** marque "Initialize this repository with a README".
-3. No PowerShell, na pasta do projeto:
-
-```powershell
-.\publicar-github.ps1 -Url "https://github.com/SEU_USUARIO/backup-automacao.git"
-```
-
-(Substitua `SEU_USUARIO` pelo seu usuário do GitHub.)
-
-Ou use o **publicar-github.bat**: ele inicializa o repositório e faz o primeiro commit; se o `origin` ainda não existir, mostra na tela os comandos para você colar (incluindo `git remote add origin ...` e `git push -u origin main`).
-
-### Passo a passo manual
-
-```bash
-cd projeto3_backup
-git init
-git add .
-git commit -m "Projeto 3: Automacao de Backup"
-git branch -M main
-git remote add origin https://github.com/SEU_USUARIO/SEU_REPO.git
-git push -u origin main
-```
-
-Substitua `SEU_USUARIO` e `SEU_REPO` pelo seu usuário e nome do repositório no GitHub.
